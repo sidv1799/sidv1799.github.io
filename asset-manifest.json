@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sidv1799.github.io/static/css/main.d1b05096.chunk.css",
+    "main.js": "/sidv1799.github.io/static/js/main.0c7d6fc5.chunk.js",
+    "main.js.map": "/sidv1799.github.io/static/js/main.0c7d6fc5.chunk.js.map",
+    "runtime-main.js": "/sidv1799.github.io/static/js/runtime-main.3688a0d1.js",
+    "runtime-main.js.map": "/sidv1799.github.io/static/js/runtime-main.3688a0d1.js.map",
+    "static/js/2.7d858d3b.chunk.js": "/sidv1799.github.io/static/js/2.7d858d3b.chunk.js",
+    "static/js/2.7d858d3b.chunk.js.map": "/sidv1799.github.io/static/js/2.7d858d3b.chunk.js.map",
+    "index.html": "/sidv1799.github.io/index.html",
+    "precache-manifest.06bc7268a21aa3258bdf9721b76498f7.js": "/sidv1799.github.io/precache-manifest.06bc7268a21aa3258bdf9721b76498f7.js",
+    "service-worker.js": "/sidv1799.github.io/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/sidv1799.github.io/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.7d858d3b.chunk.js.LICENSE": "/sidv1799.github.io/static/js/2.7d858d3b.chunk.js.LICENSE",
+    "static/media/logo.svg": "/sidv1799.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3688a0d1.js",
+    "static/js/2.7d858d3b.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.0c7d6fc5.chunk.js"
+  ]
+}
