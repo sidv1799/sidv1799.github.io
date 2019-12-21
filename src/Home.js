@@ -1,13 +1,13 @@
 import React from 'react';
 import {Image, Header, Grid, Container, Icon} from 'semantic-ui-react';
-import pic from './picture.jpg';
+import pic from './assets/picture.jpg';
 import './App.css';
 
 export default class Home extends React.Component {
     render() {
         return (
             <div className="App">
-                <Header as='h1' size="huge">Sidharth Venkatesh</Header>
+                <Header size="huge">Sidharth Venkatesh</Header>
                 <div className="padded-grid">
                     <Grid centered columns={2} padded divided>
                         <Grid.Row>

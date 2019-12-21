@@ -24,3 +24,11 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+
+.large-size {
+  font-size: 100vh;
+}
+
+.left-align {
+  text-align: start;
+}
