@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.d28bdf43.chunk.css",
-    "main.js": "/static/js/main.5e11a049.chunk.js",
-    "main.js.map": "/static/js/main.5e11a049.chunk.js.map",
+    "main.css": "/static/css/main.c1877b8b.chunk.css",
+    "main.js": "/static/js/main.31318209.chunk.js",
+    "main.js.map": "/static/js/main.31318209.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a72699d8.js",
     "runtime-main.js.map": "/static/js/runtime-main.a72699d8.js.map",
-    "static/js/2.1690044d.chunk.js": "/static/js/2.1690044d.chunk.js",
-    "static/js/2.1690044d.chunk.js.map": "/static/js/2.1690044d.chunk.js.map",
+    "static/js/2.739ba185.chunk.js": "/static/js/2.739ba185.chunk.js",
+    "static/js/2.739ba185.chunk.js.map": "/static/js/2.739ba185.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.43393355976f0a2df0ae33849abe9ed6.js": "/precache-manifest.43393355976f0a2df0ae33849abe9ed6.js",
+    "precache-manifest.3a1c5230ebb66b5a2f4de925d8135096.js": "/precache-manifest.3a1c5230ebb66b5a2f4de925d8135096.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d28bdf43.chunk.css.map": "/static/css/main.d28bdf43.chunk.css.map",
-    "static/js/2.1690044d.chunk.js.LICENSE": "/static/js/2.1690044d.chunk.js.LICENSE",
+    "static/css/main.c1877b8b.chunk.css.map": "/static/css/main.c1877b8b.chunk.css.map",
+    "static/js/2.739ba185.chunk.js.LICENSE": "/static/js/2.739ba185.chunk.js.LICENSE",
+    "static/media/autoknoby.PNG": "/static/media/autoknoby.a87f75b8.PNG",
+    "static/media/go_out.PNG": "/static/media/go_out.4d7c0971.PNG",
     "static/media/logo_infosys.png": "/static/media/logo_infosys.cdd51d33.png",
     "static/media/logo_microsoft.jpg": "/static/media/logo_microsoft.25f15023.jpg",
     "static/media/logo_planys.png": "/static/media/logo_planys.e33a7e80.png",
     "static/media/logo_qualcomm.jpg": "/static/media/logo_qualcomm.8dab0937.jpg",
     "static/media/logo_spi.jpeg": "/static/media/logo_spi.6a09c18c.jpeg",
-    "static/media/picture.jpg": "/static/media/picture.d68897fc.jpg"
+    "static/media/picture.jpg": "/static/media/picture.d68897fc.jpg",
+    "static/media/tracer.jpg": "/static/media/tracer.eb4930b9.jpg",
+    "static/media/twister.png": "/static/media/twister.7214a274.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a72699d8.js",
-    "static/js/2.1690044d.chunk.js",
-    "static/css/main.d28bdf43.chunk.css",
-    "static/js/main.5e11a049.chunk.js"
+    "static/js/2.739ba185.chunk.js",
+    "static/css/main.c1877b8b.chunk.css",
+    "static/js/main.31318209.chunk.js"
   ]
 }
