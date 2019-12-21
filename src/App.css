@@ -32,3 +32,8 @@
 .left-align {
   text-align: start;
 }
+
+.thicc-border {
+  border-radius: 2%;
+  border-color: black;
+}

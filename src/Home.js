@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, Header, Grid, Container, Icon} from 'semantic-ui-react';
+import {Image, Header, Grid, Container, Icon, Flag} from 'semantic-ui-react';
 import pic from './assets/picture.jpg';
 import './App.css';
 
@@ -18,6 +18,8 @@ export default class Home extends React.Component {
                                 <div className="item-centered">
                                     <h3>Purdue University Computer Science</h3>
                                     <h3>Class of 2021</h3>
+                                    <h3>Well, I thought it would be a fun idea to build a personal website to showcase some of the things that do not fit in my 1-page resume</h3>
+                                    <Flag name='india' />
                                 </div>
                             </Grid.Column>
                         </Grid.Row>
