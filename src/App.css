@@ -11,7 +11,6 @@
   flex: 1;
 }
 
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -49,12 +48,11 @@
 .form {
   margin: 0;
   width: 60%;
-  margin-left:20%; 
+  margin-left: 20%;
 }
 
 .padded-links {
   padding-left: 4%;
   padding-right: 4%;
   padding-bottom: 2%;
-  
 }

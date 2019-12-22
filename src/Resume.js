@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
 export default class Resume extends React.Component {
-    render(){
-        return (
-            <p>Resume</p>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <p>Resume</p>
+      </div>
+    );
+  }
 }
