@@ -13,7 +13,7 @@ import pic9 from './assets/about/pic9.jpg';
 import pic10 from './assets/about/pic10.jpg';
 import pic11 from './assets/about/pic11.jpg';
 
-export default class About extends React.Component {
+export default class Gallery extends React.Component {
     render() {
         return (
             <div className="padded-grid">

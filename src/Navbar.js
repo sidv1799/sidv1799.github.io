@@ -14,8 +14,8 @@ export default class Navbar extends Component {
           Home
         </Menu.Item>
         
-        <Menu.Item href="/about"  name='About' active={activeItem === 'About'} onClick={this.handleItemClick}>
-          About
+        <Menu.Item href="/gallery"  name='Gallery' active={activeItem === 'Gallery'} onClick={this.handleItemClick}>
+          Gallery
         </Menu.Item>
 
         <Menu.Item href="https://drive.google.com/open?id=1qxgsbqucXccKLcHIOhPdimjkNTSEUAku"
