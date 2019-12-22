@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b0aa85e8243556c4435c72bd46604c3",
+    "revision": "48259aec4426cfc95cee85022eac5904",
     "url": "/index.html"
   },
   {
-    "revision": "cce60c55b9b15c978ed1",
-    "url": "/static/css/main.a8c2dd9e.chunk.css"
+    "revision": "894b407ac513edc2d454",
+    "url": "/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "2f43a4b10fdf48f89c0d",
-    "url": "/static/js/2.b7e48ff5.chunk.js"
+    "revision": "f5119265ef02c1663a68",
+    "url": "/static/css/main.eac4645c.chunk.css"
+  },
+  {
+    "revision": "894b407ac513edc2d454",
+    "url": "/static/js/2.13a8c492.chunk.js"
   },
   {
     "revision": "3d9880ee0da2a100dc4a6223e0aed39a",
-    "url": "/static/js/2.b7e48ff5.chunk.js.LICENSE"
+    "url": "/static/js/2.13a8c492.chunk.js.LICENSE"
   },
   {
-    "revision": "cce60c55b9b15c978ed1",
-    "url": "/static/js/main.b46484a8.chunk.js"
+    "revision": "f5119265ef02c1663a68",
+    "url": "/static/js/main.dd3c6ca5.chunk.js"
   },
   {
     "revision": "39666f712b41b027ccb8",
@@ -36,20 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo_infosys.cdd51d33.png"
   },
   {
-    "revision": "25f1502319a845d2d12031ac0c9db7f2",
-    "url": "/static/media/logo_microsoft.25f15023.jpg"
+    "revision": "6e65e290772e1d0f7f1f6a6220419d11",
+    "url": "/static/media/logo_microsoft.6e65e290.jpg"
   },
   {
-    "revision": "e33a7e80dc996c2a4b62a6511357ad66",
-    "url": "/static/media/logo_planys.e33a7e80.png"
+    "revision": "3c60a284fa049a5b0359843fe78a309b",
+    "url": "/static/media/logo_planys.3c60a284.png"
   },
   {
     "revision": "8dab09371fcf312897bfef9cb100c2e0",
     "url": "/static/media/logo_qualcomm.8dab0937.jpg"
-  },
-  {
-    "revision": "6a09c18c6232df53797353ccc3f8edb1",
-    "url": "/static/media/logo_spi.6a09c18c.jpeg"
   },
   {
     "revision": "c695dcddc97aefd71173b2d12349cc94",
@@ -62,6 +62,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "896fb91e9c7301315a05b51aa15bcdab",
     "url": "/static/media/pic11.896fb91e.jpg"
+  },
+  {
+    "revision": "0e7213aa2cbd692ada975e117429fb27",
+    "url": "/static/media/pic12.0e7213aa.JPG"
+  },
+  {
+    "revision": "1746d66547b362ecdb58934c3e9bc21b",
+    "url": "/static/media/pic13.1746d665.JPG"
+  },
+  {
+    "revision": "360165f83a08f5146bf9cc8b5b05ec01",
+    "url": "/static/media/pic14.360165f8.JPG"
   },
   {
     "revision": "f93fb8fd37e3bdd6f0e60987dd1736bc",
