@@ -58,7 +58,7 @@ export default class Projects extends React.Component {
                                         </Grid.Column>
                                         
                                         <Grid.Column>
-                                            <Modal trigger={<a><Icon name="play" size="big" /></a> } >
+                                            <Modal trigger={<a><Icon name="youtube play" size="big" /></a> } >
                                                 <Modal.Header>Twister</Modal.Header>
                                                 <Modal.Content>
                                                     <Embed source="youtube" />
@@ -110,7 +110,7 @@ export default class Projects extends React.Component {
                                             <p>Github Repo</p>
                                         </Grid.Column>
                                         <Grid.Column>
-                                            <Modal trigger={<a><Icon name="play" size="big"/></a> } >
+                                            <Modal trigger={<a><Icon name="youtube play" size="big"/></a> } >
                                                 <Modal.Header>T-Mobile T-Racer</Modal.Header>
                                                 <Modal.Content>
                                                     <Embed id="3zPRW5XPsHU" source="youtube" />
@@ -170,7 +170,7 @@ export default class Projects extends React.Component {
                                             <p>Github Repo</p>
                                         </Grid.Column>
                                         <Grid.Column>
-                                            <Modal trigger={<a><Icon name="play" size="big" /></a> } >
+                                            <Modal trigger={<a><Icon name="youtube play" size="big" /></a> } >
                                                 <Modal.Header>Autoknoby Biometric Security</Modal.Header>
                                                 <Modal.Content>
                                                     <Embed id="xL6oJc1dAVI" source="youtube" />
@@ -179,7 +179,7 @@ export default class Projects extends React.Component {
                                             <p>Play Video</p>
                                         </Grid.Column>
                                         <Grid.Column>
-                                            <Modal trigger={<a><Icon name="play" size="big" /></a> } >
+                                            <Modal trigger={<a><Icon name="youtube play" size="big" /></a> } >
                                                 <Modal.Header>Our vision for biometric security</Modal.Header>
                                                 <Modal.Content>
                                                     <Embed id="KcPRkwxiy4U" source="youtube" />
@@ -237,7 +237,7 @@ export default class Projects extends React.Component {
                                             <p>Github Repo</p>
                                         </Grid.Column>
                                         <Grid.Column>
-                                            <Modal trigger={<a><Icon name="play" size="big" /></a> } >
+                                            <Modal trigger={<a><Icon name="youtube play" size="big" /></a> } >
                                                 <Modal.Header>Go Out!</Modal.Header>
                                                 <Modal.Content>
                                                     <Embed id="xDaw2UBmsLE" source="youtube" />
@@ -260,6 +260,7 @@ export default class Projects extends React.Component {
 
                 
                 </ Item.Group>
+                <Divider/>
             </div>
             
         );

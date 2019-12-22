@@ -1,12 +1,14 @@
 import React from 'react';
-import {Image, Header, Grid, Container, Icon, Flag} from 'semantic-ui-react';
+import {Image, Header, Grid, Container, Icon, Flag, Divider} from 'semantic-ui-react';
 import pic from './assets/picture.jpg';
 import './App.css';
+
+import Links from './Links.js';
 
 export default class Home extends React.Component {
     render() {
         return (
-            <div className="App">
+            <div>
                 <Header size="huge">Sidharth Venkatesh</Header>
                 <div className="padded-grid">
                     <Grid centered columns={2} padded divided>
@@ -23,27 +25,9 @@ export default class Home extends React.Component {
                                 </div>
                             </Grid.Column>
                         </Grid.Row>
-
+                        <Divider hidden />
                     </Grid>
-                    <Container>
-                        <a href="https://www.linkedin.com/in/sidharth-venkatesh/" target="_blank" rel="noopener noreferrer">
-                            <Icon name='linkedin' size="huge"/>
-                        </a>
-                        <a href="https://github.com/Sid-V" target="_blank" rel="noopener noreferrer">
-                            <Icon name='github' size="huge"/>
-                        </a>
-                        <a href="https://www.facebook.com/sidharth.venkatesh" target="_blank" rel="noopener noreferrer">
-                            <Icon name='facebook' size="huge"/>
-                        </a>
-                        <a href="mailto:sidv@purdue.edu" target="_blank" rel="noopener noreferrer">
-                            <Icon name='mail' size="huge"/>
-                        </a>
-
-                    </Container>
-                </div>
-
-                    
-                                    
+                </div>                                 
             </div>
         );
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Item, Icon, Grid, List } from 'semantic-ui-react';
+import { Item, Icon, Grid,Divider, List } from 'semantic-ui-react';
 import './App.css';
 
 import logo_microsoft from './assets/logo_microsoft.jpg';
@@ -52,7 +52,7 @@ export default class Experience extends React.Component {
                                     <Icon name="gg circle" />   
                                     <List.Content>
                                         <List.Description>
-                                        Partnered with <a href="/projects">T-Mobile</a> in the Microsoft Hackathon to autonomously drive a car using image
+                                        <a href="/projects">Partnered with T-Mobile in the Microsoft Hackathon</a> to autonomously drive a car using image
                                         recognition and supervised learning
                                         </List.Description>
                                     </List.Content> 
@@ -128,7 +128,7 @@ export default class Experience extends React.Component {
                                     <Icon name="gg circle" />   
                                     <List.Content>
                                         <List.Description>
-                                        Won overall 2nd and <a href="/projects">‘Best Innovative Hack’</a> at Qualcomm’s Hackmobile for building a biometric
+                                        <a href="/projects">Won overall 2nd and ‘Best Innovative Hack’ at Qualcomm’s Hackmobile</a> for building a biometric
                                         security system for physical controls using a Dragonboard 410c, facial recognition AI and a physical knob
                                         </List.Description>
                                     </List.Content> 
@@ -313,10 +313,54 @@ export default class Experience extends React.Component {
                         </Item.Extra>
                     </Item.Content>
                     </Item>
-                    
 
-
+                    <Item>
+                    <Item.Image size='medium' src={logo_infosys} />
+                
+                    <Item.Content>
+                        <Item.Header>Infosys Ltd.</Item.Header>
+                        <Item.Meta>Catch Them Young Program</Item.Meta>
+                        <Item.Description className="left-align">
+                            <List>
+                                <List.Item>
+                                    <Icon name="gg circle" />   
+                                    <List.Content>
+                                        <List.Description>
+                                        Part of an elite 30 that got selected for a 2-week rigorous bootcamp at Infosys HQ in Chennai, India
+                                        </List.Description>
+                                    </List.Content> 
+                                </List.Item>
+                                <List.Item>
+                                    <Icon name="gg circle" />   
+                                    <List.Content>
+                                        <List.Description>
+                                        Exposed to concepts such as computer security, networking, graphics, animation and much more
+                                        </List.Description>
+                                    </List.Content> 
+                                </List.Item>
+                            </List>
+                            
+                        </Item.Description>
+                        <Item.Extra>
+                            
+                            <Grid container columns={2}>
+                                <Grid.Row>
+                                    <Grid.Column >
+                                        <Icon name="fire" size="big"/>
+                                        <p>Bootcamp</p>
+                                    </Grid.Column>
+                                    <Grid.Column >
+                                        <Icon name="file word" size="big"/>
+                                        <p>Microsoft Office</p>
+                                    </Grid.Column>
+                                </Grid.Row>
+                            
+                            </Grid>
+                        </Item.Extra>
+                    </Item.Content>
+                    </Item>
                 </Item.Group>
+                <Divider />
             </div>
         );
     }

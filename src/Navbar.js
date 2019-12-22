@@ -9,9 +9,13 @@ export default class Navbar extends Component {
   render() {
     const { activeItem } = this.state
     return (
-      <Menu size="huge">
+      <Menu size="huge" fluid>
         <Menu.Item href="/"  name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick}>
           Home
+        </Menu.Item>
+        
+        <Menu.Item href="/about"  name='About' active={activeItem === 'About'} onClick={this.handleItemClick}>
+          About
         </Menu.Item>
 
         <Menu.Item href="https://drive.google.com/open?id=1qxgsbqucXccKLcHIOhPdimjkNTSEUAku"
@@ -27,6 +31,7 @@ export default class Navbar extends Component {
         <Menu.Item href="/projects" name='Projects' active={activeItem === 'Projects'} onClick={this.handleItemClick}>
           Projects
         </Menu.Item>
+        
       </Menu>
     );
   }

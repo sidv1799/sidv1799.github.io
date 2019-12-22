@@ -1,11 +1,14 @@
 .App {
   text-align: center;
   align-items: center;
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-content {
+  flex: 1;
 }
 
 
@@ -36,4 +39,9 @@
 .thicc-border {
   border-radius: 2%;
   border-color: black;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
 }

@@ -9,6 +9,8 @@ import Resume from './Resume.js';
 import Navbar from './Navbar.js';
 import Home from './Home.js';
 import Experience from './Experience.js';
+import Links from './Links.js';
+import About from './About.js';
 
 //Add WelcomeMessage later
 
@@ -20,14 +22,18 @@ export default class App extends React.Component {
         <Router>
           <Navbar/>
           <Divider hidden />
-          <Switch>
-            <Route exact path="/" component={Home}/> 
-            <Route exact path="/experience" component={Experience} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/resume" component={Resume} />
-          </Switch>
+          <div classname="App-content">
+            <Switch>
+              <Route exact path="/" component={Home}/>
+              <Route exact path="/about" component={About}/> 
+              <Route exact path="/experience" component={Experience} />
+              <Route exact path="/projects" component={Projects} />
+              <Route exact path="/resume" component={Resume} />
+            </Switch>
+          </div>
+          <Divider/>
+          <Links/>
         </Router>
-        
       </div>
     );
   }
