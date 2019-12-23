@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Icon } from "semantic-ui-react";
 
+import "./App.css";
+
 export default class Links extends React.Component {
   render() {
     return (
@@ -26,6 +28,9 @@ export default class Links extends React.Component {
         </a>
         <a href="mailto:sidv@purdue.edu" target="_blank" rel="noopener noreferrer" className="padded-links">
           <Icon name="mail" size="huge" />
+        </a>
+        <a href="https://react.semantic-ui.com/" target="_blank" rel="noopener noreferrer">
+          <p>Built from scratch with React + Semantic UI</p>
         </a>
       </Container>
     );

@@ -12,7 +12,10 @@ import Experience from "./Experience.js";
 import Links from "./Links.js";
 import Gallery from "./Gallery.js";
 
+//TODO
 //Add WelcomeMessage later
+//Add video link for twister
+//Add TA experience tab
 
 export default class App extends React.Component {
   render() {

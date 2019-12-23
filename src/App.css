@@ -35,6 +35,10 @@
   text-align: start;
 }
 
+.right-align {
+  text-align: end;
+}
+
 .thicc-border {
   border-radius: 2%;
   border-color: black;
@@ -52,7 +56,7 @@
 }
 
 .padded-links {
-  padding-left: 4%;
-  padding-right: 4%;
-  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 3%;
 }

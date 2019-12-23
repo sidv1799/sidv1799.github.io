@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Header, Grid, Flag, Divider } from "semantic-ui-react";
+import { Header, Grid, Flag, Divider } from "semantic-ui-react";
 
 import "./App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -54,11 +54,12 @@ export default class Home extends React.Component {
                   <h3>Purdue University - Computer Science</h3>
                   <h3>Class of 2021</h3>
                   <h3>
-                    I thought it would be a fun idea to build a personal website to showcase some of the things that do
-                    not fit in my 1-page resume
+                    Welcome to my personal website! It's a place where I showcase things that wouldn't normally fit on a
+                    1-page resume.
                   </h3>
                   <h4>Send me a message through the contact form if there is anything you'd like to say :)</h4>
                   <Flag name="india" />
+                  <Flag name="united states" />
                 </div>
               </Grid.Column>
             </Grid.Row>
