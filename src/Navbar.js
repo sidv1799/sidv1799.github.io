@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Menu } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
   state = {};
@@ -10,11 +11,17 @@ export default class Navbar extends Component {
     const { activeItem } = this.state;
     return (
       <Menu size="huge" fluid>
-        <Menu.Item href="/" name="Home" active={activeItem === "Home"} onClick={this.handleItemClick}>
+        <Menu.Item as={Link} to="/" name="Home" active={activeItem === "Home"} onClick={this.handleItemClick}>
           Home
         </Menu.Item>
 
-        <Menu.Item href="/gallery" name="Gallery" active={activeItem === "Gallery"} onClick={this.handleItemClick}>
+        <Menu.Item
+          as={Link}
+          to="/gallery"
+          name="Gallery"
+          active={activeItem === "Gallery"}
+          onClick={this.handleItemClick}
+        >
           Gallery
         </Menu.Item>
 
@@ -30,7 +37,8 @@ export default class Navbar extends Component {
         </Menu.Item>
 
         <Menu.Item
-          href="/experience"
+          as={Link}
+          to="/experience"
           name="Experience"
           active={activeItem === "Experience"}
           onClick={this.handleItemClick}
@@ -38,7 +46,13 @@ export default class Navbar extends Component {
           Experience
         </Menu.Item>
 
-        <Menu.Item href="/projects" name="Projects" active={activeItem === "Projects"} onClick={this.handleItemClick}>
+        <Menu.Item
+          as={Link}
+          to="/projects"
+          name="Projects"
+          active={activeItem === "Projects"}
+          onClick={this.handleItemClick}
+        >
           Projects
         </Menu.Item>
       </Menu>
