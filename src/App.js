@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, HashRouter } from "react-router-dom";
 import { Divider } from "semantic-ui-react";
 
 import WelcomeMessage from "./Welcome.js";
@@ -27,10 +27,10 @@ export default class App extends React.Component {
           <div className="App-content">
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="/gallery" component={Gallery} />
-              <Route exact path="/experience" component={Experience} />
-              <Route exact path="/projects" component={Projects} />
-              <Route exact path="/resume" component={Resume} />
+              <Route path="/gallery" component={Gallery} />
+              <Route path="/experience" component={Experience} />
+              <Route path="/projects" component={Projects} />
+              <Route path="/resume" component={Resume} />
             </Switch>
           </div>
           <Divider />
